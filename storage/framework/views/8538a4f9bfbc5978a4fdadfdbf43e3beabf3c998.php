@@ -1,0 +1,3 @@
+<?php $__currentLoopData = $barbershops; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $barbershops): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+    <a href="/barbershops/show/<?php echo e($barbershops->id); ?>"><?php echo e($barbershops->title); ?></a>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH W:\domains\Practise.ru\resources\views/news/index.blade.php ENDPATH**/ ?>
